@@ -1,0 +1,31 @@
+.formhead{
+    background-color :rgba(221, 216, 216, 0.548) ;
+    padding: 15px;
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+
+.name{
+    font-size: 2.5em;
+    font-weight:200% ;
+}
+
+
+span.note{
+    color: black;
+    font-size: .3em;
+    font-weight: 25px;
+    padding: .1em;
+    margin-bottom: 10px;
+}
+
+p span{
+ color:    rgb(39, 71, 252);
+}
+
+.text{
+    text-align: center;
+    color: rgba(231, 18, 18, 0.861);
+    font-size: large;
+}
