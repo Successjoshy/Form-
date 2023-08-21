@@ -1,13 +1,12 @@
 
 .form-container{
     text-align: center;
-    margin: 5% 10%;
+    margin: 3% 15%;
     border:2px solid rgba(0, 26, 255, 0.274);
     border-radius: 10px;
     background-color: rgba(180, 170, 208, 0.274);
     box-shadow: 2px 2px 3px grey;
     transition: 1s;
-    
 }
 
 .form{
@@ -15,7 +14,6 @@
     margin:opx auto ;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
 }
 
@@ -56,13 +54,24 @@
     background: #fff;
 }
 
+.form #re-password{
+    color: rgba(0, 0, 0, 0.734);
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    border:none;
+    margin: 10px;
+    font-weight: bolder; 
+    font-size: large;
+    background: #fff;
+}
+
 .form ::placeholder{
     font-size: large;
     color: rgb(151, 147, 147);
     
 }
-
-
 
 .btn{
     color: black;
@@ -76,8 +85,6 @@
     width: 15%;
     font-weight: bold;
 }
-
-
 
 .btn:hover,:focus{
     color: white;
@@ -107,7 +114,7 @@
         color: black;
         padding: 1em;
         background: rgba(193, 187, 187, 0.757);
-        margin: 4em 0em;
+        margin: 3em 0em;
         border-radius: 20px;
         box-shadow: 2px 2px 2px black;
         border: none;
@@ -116,4 +123,9 @@
         font-weight: bold;
     }
     
+    .text{
+        text-align: center;
+        color: rgba(231, 18, 18, 0.861);
+        font-size: large;
+    }
 }
